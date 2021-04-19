@@ -2,11 +2,12 @@
 
 A kafka producer/consumer proof of concept using node.
 
-## Running locally
-
 ### Prerequisites
 
-`docker` installed.
+* `node`
+* `docker`
+
+## Running locally
 
 * `npm install` - installs npm dependencies.
 * `./scripts/start-kafka.sh` - starts kafka.
