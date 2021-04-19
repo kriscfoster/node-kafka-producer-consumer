@@ -1,0 +1,16 @@
+{
+  "name": "node-kafka-poc",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:producer": "node producer/index.js",
+    "start:consumer": "node consumer/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-rdkafka": "^2.10.1"
+  }
+}
