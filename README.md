@@ -2,7 +2,7 @@
 
 A kafka producer/consumer proof of concept using node.
 
-### Prerequisites
+## Prerequisites
 
 * `node`
 * `docker`
