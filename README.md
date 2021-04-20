@@ -2,6 +2,8 @@
 
 A kafka producer/consumer proof of concept using node.
 
+![Screen Shot 2021-04-20 at 09 56 47](https://user-images.githubusercontent.com/17026751/115368228-cbcd0000-a1be-11eb-9d17-6ada1ad5ff98.png)
+
 ## Prerequisites
 
 * `node`
