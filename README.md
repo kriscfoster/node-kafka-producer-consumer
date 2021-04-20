@@ -1,4 +1,4 @@
-# Node-Kafka-POC
+# node-kafka-producer-consumer
 
 A kafka producer/consumer proof of concept using node.
 
