@@ -1,4 +1,5 @@
 import Kafka from 'node-rdkafka';
+import eventType from '../eventType.js';
 
 var consumer = new Kafka.KafkaConsumer({
   'group.id': 'kafka',
@@ -11,5 +12,5 @@ consumer.on('ready', () => {
   consumer.subscribe(['test']);
   consumer.consume();
 }).on('data', function(data) {
-  console.log(data.value.toString());
+  console.log(eventType.fromBuffer(data.value));
 });
